@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Sofia/CLionProjects/task0/cmake-build-debug/FileReaderTest[1]_tests.cmake")
+  include("C:/Users/Sofia/CLionProjects/task0/cmake-build-debug/FileReaderTest[1]_tests.cmake")
+else()
+  add_test(FileReaderTest_NOT_BUILT FileReaderTest_NOT_BUILT)
+endif()

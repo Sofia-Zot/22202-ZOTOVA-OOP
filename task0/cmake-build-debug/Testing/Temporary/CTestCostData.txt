@@ -1,0 +1,5 @@
+StatisticStorage.addWord 8 0.014221
+Statistics.sortStatistic 8 0.00809911
+FileReader.next 1 0.0540213
+FileReader.hasNext 1 0.0464524
+---

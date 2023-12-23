@@ -1,0 +1,5 @@
+add_test([=[FileReader.next]=]  C:/Users/Sofia/CLionProjects/task0/cmake-build-debug/FileReaderTest.exe [==[--gtest_filter=FileReader.next]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FileReader.next]=]  PROPERTIES WORKING_DIRECTORY C:/Users/Sofia/CLionProjects/task0/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FileReader.hasNext]=]  C:/Users/Sofia/CLionProjects/task0/cmake-build-debug/FileReaderTest.exe [==[--gtest_filter=FileReader.hasNext]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FileReader.hasNext]=]  PROPERTIES WORKING_DIRECTORY C:/Users/Sofia/CLionProjects/task0/cmake-build-debug SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  FileReaderTest_TESTS FileReader.next FileReader.hasNext)

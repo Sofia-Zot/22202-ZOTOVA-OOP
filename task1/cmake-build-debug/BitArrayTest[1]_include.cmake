@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zotov/CLionProjects/task1/cmake-build-debug/BitArrayTest[1]_tests.cmake")
+  include("C:/Users/zotov/CLionProjects/task1/cmake-build-debug/BitArrayTest[1]_tests.cmake")
+else()
+  add_test(BitArrayTest_NOT_BUILT BitArrayTest_NOT_BUILT)
+endif()
